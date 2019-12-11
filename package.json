@@ -36,7 +36,7 @@
     "testWithCoverage": "jest --coverage"
   },
   "bin": {
-    "graphql-export": "./bin/graphql-export"
+    "graphql-export": "./src/index.ts"
   },
   "preferGlobal": true
 }

@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const fs = require('fs');
-const
-    instrospectionQuery = `
+const instrospectionQuery = `
         query IntrospectionQuery {
             __schema {
                 queryType {

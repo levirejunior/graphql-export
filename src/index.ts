@@ -1,4 +1,5 @@
-import { convert } from './exporters'
+#!/usr/bin/env node
+//import { convert } from './exporters'
 
 const yargs = require('yargs');
 const argv = yargs
@@ -18,4 +19,4 @@ const argv = yargs
     .alias('help', 'h')
     .argv;
 
-convert(argv.url, argv.format);
+//convert(argv.url, argv.format);

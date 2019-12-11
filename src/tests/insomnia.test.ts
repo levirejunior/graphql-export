@@ -1,4 +1,4 @@
-import { Insomnia } from '../exporters'
+import Insomnia from '../exporters/insomnia/insomnia'
 
 describe('Test buildQueryArgs', function() {
     it('returns empty string for empty arguments', function () {
